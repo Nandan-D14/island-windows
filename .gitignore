@@ -1,0 +1,19 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+publish/
+
+# Environment files
+.env
+*.env
+*.env.*
+
+# Visual Studio / Rider / VS Code
+.vs/
+*.user
+*.suo
+.idea/
+.vscode/
+
+# Logs and temp files
+*.log
