@@ -1,19 +1,70 @@
-# Build results
+## ====================================================================
+## Visual Studio / MSBuild / .NET Build Artifacts
+## ====================================================================
 [Bb]in/
 [Oo]bj/
 publish/
+dist/
+*.zip
 
-# Environment files
+# Visual Studio temporary files, user settings, caches
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.dbmdl
+*.jsproj.user
+*.pidb
+*.booproj.user
+*.vcxproj.user
+
+# Rider / JetBrains IDE
+.idea/
+*.DotSettings.user
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+## ====================================================================
+## Environment Variables, Secrets & Configuration Files
+## ====================================================================
 .env
 *.env
 *.env.*
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+appsettings*.local.json
+secrets.json
 
-# Visual Studio / Rider / VS Code
-.vs/
-*.user
-*.suo
-.idea/
-.vscode/
-
-# Logs and temp files
+## ====================================================================
+## OS & Temporary Files
+## ====================================================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+*.tmp
 *.log
+*.bak
+*.dmp
+*.crash
+
+## ====================================================================
+## Packages & Assemblies
+## ====================================================================
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+artifacts/
